@@ -6,4 +6,4 @@ class Solution(object):
 	:type n: int
 	:rtype: bool
 	"""
-	return not (n%4 == 0)
+	return bool(n%4)
